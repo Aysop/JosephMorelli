@@ -237,7 +237,6 @@ a.active,
 
 .row1 {
     display: flex;
-    object-position: fixed;
     align-content: center;
     padding-left: 225px;
    
