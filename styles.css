@@ -201,6 +201,7 @@ a.active,
     padding: 5px 0 0 50px;
     opacity: 0.5;
 }
+
 .projects {
     position: absolute;
     padding: 10px 60px 0 60px;
@@ -236,6 +237,7 @@ a.active,
 
 .row1 {
     display: flex;
+    object-position: fixed;
     align-content: center;
     padding-left: 225px;
    
