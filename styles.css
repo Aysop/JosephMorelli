@@ -227,6 +227,10 @@ a.active,
     font-family: serif;
 }
 
+.row {
+    display: flex;
+}
+
 
 /* width */
 ::-webkit-scrollbar {
