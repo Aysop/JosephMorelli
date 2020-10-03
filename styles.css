@@ -25,6 +25,13 @@ body {
     opacity: .8;
 }
 
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+}
+
 .nav {
     width: 350px;
     height: auto;
@@ -173,7 +180,7 @@ a.active,
 
 .home2 {
     -webkit-transform-origin: bottom left;
-    position: absolute;
+    position: fixed;
     left: 25px;
     padding-top: 525px;
     color: antiquewhite;
