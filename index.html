@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+    <meta name="generator" content="Adobe GoLive">
+    <title>BA Crisp</title>
+</head>
+<header>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</header>
+
+
+<body>
+    <div class="background"></div>
+        <div class="nav">
+            <a class="a active" href="#">Home</a>
+            <a class="b" href="#">About</a>
+            <a class="c" href="#">Projects</a>
+            <a class="d" href="#">Contact</a>
+        </div>
+        <div class="content">
+        
+            <div class="about" style="z-index: 10;">
+                <p>
+                    <><>Software Engineering student at SWFL's Florida Gulf Coast University. My fields of interest include: front-end web development, and Object Oriented Programming. As far as career aspirations, little would bring me more enjoyment than working along like-minded, driven individuals to create and implement software technologies.
+                </p>
+                <center>
+                    <hr style="color: antiquewhite; width: 45%; margin-top: 15px; margin-bottom: -10px;">
+                </center>
+                <p> In a personal capacity, I enjoy reading, music, and video games. Some favorites from each catagory include, Books: The Pillars of the Earth, Ready Player One, and The Name of the Wind. Music: instrumental, alternative, rap. Video games: Ocarina of Time, Final Fantasy 7, and Among Us<><>
+                </p>
+            </div>
+            
+                <div class="projects" style="z-index: 10;">
+                <p>
+                    <><>Software Engineering student at SWFL's Florida Gulf Coast University. My fields of interest include: front-end web development, and Object Oriented Programming. As far as career aspirations, little would bring me more enjoyment than working along like-minded, driven individuals to create and implement software technologies.
+                </p>
+                <center>
+                    <hr style="color: antiquewhite; width: 45%; margin-top: 15px; margin-bottom: -10px;">
+                </center>
+                <p> In a personal capacity, I enjoy reading, music, and video games. Some favorites from each catagory include, Books: The Pillars of the Earth, Ready Player One, and The Name of the Wind. Music: instrumental, alternative, rap. Video games: Ocarina of Time, Final Fantasy 7, and Among Us<><>
+                </p>
+            </div>
+            
+            <div class="contact">
+                <div>
+                    <div class="column">
+                        <figure><a href="https://www.facebook.com/BA-Crisp-Author-111938670144498/"><img src="pics/fb.png" alt="FB" style="width:125px;height:125px; margin-right: 50px;">
+                                <figcaption class="figcaps" style="margin-left: 0px;">Facebook</figcaption>
+                            </a></figure>
+                    </div>
+                    <div class="column">
+                        <figure><a href="https://www.instagram.com/bacrispwrites/"><img src="pics/insta.png" alt="IG" style="width:125px;height:125px;">
+                                <figcaption class="figcaps" style="margin-left: 0px;">Instagram</figcaption>
+                            </a></figure>
+                    </div>
+                    <div class="column">
+                        <figure><a href="https://twitter.com/ba_crispwrites"><img src="pics/twitter.png" alt="Twitter" style="width:125px;height:125px;">
+                                <figcaption class="figcaps">Twitter</figcaption>
+                            </a></figure>
+                    </div>
+            </div>
+        </div>
+            <div class="home2" style="z-index: 0">
+                <h1>Joseph Morelli</h1>
+                <h3>Engineer</h3>
+            </div>
+    </div>
+        
+
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a').click(function() {
+                //  alert("i am a click");
+                var selected = $(this);
+                $('a').removeClass('active');
+                $(selected).addClass('active');
+            });
+            var $a = $('.a'),
+                $b = $('.b'),
+                $c = $('.c'),
+                $d = $('.d'),
+                $home = $('.home'),
+                $about = $('.about'),
+                $contact = $('.contact');
+
+            $a.click(function() {
+                $home.fadeIn();
+                $about.fadeOut();
+                $contact.fadeOut();
+            });
+
+            $b.click(function() {
+                $about.fadeIn();
+                $home.fadeOut();
+                $contact.fadeOut();
+            });
+
+            $c.click(function() {
+                $about.fadeOut();
+                $home.fadeIn();
+                $contact.fadeOut();
+            });
+
+            $d.click(function() {
+                $home.fadeOut();
+                $about.fadeOut();
+                $contact.fadeIn();
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>
