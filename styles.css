@@ -15,6 +15,7 @@ body {
 }
 
 .background {
+    
     width: 100%;
     height: 100%;
     background-image: url(pics/portBack2.jpg);
@@ -23,12 +24,13 @@ body {
     position: relative;
     overflow-y: auto;
     opacity: .8;
+    
 }
 
-.column {
-    float: left;
+.column1 {
+    transform-origin: center;
     width: 20%;
-    padding: 5px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -163,7 +165,6 @@ a.active,
     padding: 30px;
     text-align: center;
     padding-right: 61px;
-    position: center;
 }
 
 .figcaps {
@@ -230,6 +231,22 @@ a.active,
 
 .row {
     display: flex;
+    align-content: center;
+    padding-left: 85px;
+}
+
+.row1 {
+    display: flex;
+    object-position: fixed;
+    align-content: center;
+    padding-left: 225px;
+   
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
 }
 
 
