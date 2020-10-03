@@ -201,17 +201,16 @@ a.active,
     padding: 5px 0 0 50px;
     opacity: 0.5;
 }
-
 .projects {
     position: absolute;
-    padding: 0 60px;
+    padding: 10px 60px 0 60px;
     background-color: #205566;
     opacity: .95;
     display: none;
     border: 1px solid black;
     border-radius: 10px;
     float: right;
-    margin-left: 20%;
+    margin-left: 15%;
     overflow-y: auto;
     margin-top: .5%;
     height: 500px;
