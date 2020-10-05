@@ -142,6 +142,17 @@ a.active,
     font-family: serif;
 }
 
+.about p1 {
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+    display: inline-block;
+}
+
 .contact {
     position: absolute;
     padding: 0 50px;
