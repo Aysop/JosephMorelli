@@ -51,37 +51,37 @@ body {
     display: inline-block;
     height: 90px;
     margin: 15px 0;
-    float: right;
     background-color: #205577;
     color: antiquewhite;
     line-height: 90px;
     text-align: center;
     transition: 300ms;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 1000px;
 }
 
 a.active,
 .nav a:hover {
     background-color: antiquewhite;
     color: #205577;
-    width: 100%;
+    width: 70%;
+    height: 70%;
 }
 
 .a {
-    width: 95%;
+    width: 60%;
 }
 
 .b {
-    width: 85%;
+    width: 48%;  
 }
 
 .c {
-    width: 80%;
+    width: 45%;
 }
 
 .d {
-    width: 90%;
+    width: 50%;
+    
 }
 
 .content {
