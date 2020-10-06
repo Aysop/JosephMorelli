@@ -134,8 +134,8 @@ a.active,
     float: right;
     margin-left: 17%;
     overflow-y: auto;
-    margin-top: 2% ;
-    height: 500px;
+    margin-top: 5% ;
+    height: 525px;
     width: 750px;
     overflow-y: scroll;
 }
@@ -197,8 +197,8 @@ a.active,
     float: right;
     margin-left: 17%;
     overflow-y: auto;
-    margin-top: 2% ;
-    height: 500px;
+  margin-top: 5% ;
+    height: 525px;
     width: 750px;
     overflow-y: scroll;
 }
