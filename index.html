@@ -18,6 +18,7 @@
         <ul> <a class="b" href="#">About</a></ul>
         <ul> <a class="c" href="#">Projects</a></ul>
         <ul> <a class="d" href="#">Contact</a></ul>
+        <ul> <a class="e" href="#">Credentials</a></ul>
     </div>
     <div class="content">
 
@@ -117,6 +118,36 @@
                 </div>
             </div>
         </div>
+        
+        <div class="credentials" style="z-index: 10;">
+
+             <p><><><><><><><><><><><><><><><><><><></p>
+                <p1>
+                    <dl>
+                         <dt>Courses:</dt>
+                         <dd> - COP 3003: Object Oriented Programming</dd>
+                         <dd> - CDA 3104: Computer Assembly and Design</dd>
+                         <dd> - COP 2002: Programming Methodology</dd>
+                         <dd> - MAD 3107: Discrete Mathmatics</dd>
+                         <dd> - MAS 3105: Linear Algebra</dd>
+                         <dd> - PHY 2049: Physics II  </dd>
+                         <dd> - MAC 2313: Calculus III  </dd>
+                         <dd> - COP 2002: Programming Methodology</dd>
+                    
+
+                         <dt style="padding-top: 20px;">Certifications:</dt>
+                         <dd> - Microsoft Digital Literacy: Credential ID 969197377</dd>
+                         
+                         <dt style="padding-top: 20px;">Resume:</dt>
+                         <dd> - Full resume can be downloaded <a href="">here</a></dd>
+                    
+                    </dl>
+                </p1>
+                <p><><><><><><><><><><><><><><><><><><></p>
+            
+            
+        </div>
+
         <div class="home2" style="z-index: 0">
             <h1>Joseph Morelli</h1>
             <h3>Software Engineer</h3>
@@ -137,16 +168,19 @@
                 $b = $('.b'),
                 $c = $('.c'),
                 $d = $('.d'),
+                $e = $('.e'),
                 $home = $('.home'),
                 $about = $('.about'),
                 $projects = $('.projects'),
-                $contact = $('.contact');
+                $contact = $('.contact'),
+                $credentials = $('.credentials');
 
             $a.click(function() {
                 $home.fadeIn();
                 $about.fadeOut();
                 $projects.fadeOut();
                 $contact.fadeOut();
+                $credentials.fadeOut();
             });
 
             $b.click(function() {
@@ -154,6 +188,7 @@
                 $home.fadeOut();
                 $projects.fadeOut();
                 $contact.fadeOut();
+                $credentials.fadeOut();
             });
 
             $c.click(function() {
@@ -161,6 +196,7 @@
                 $home.fadeOut();
                 $projects.fadeIn();
                 $contact.fadeOut();
+                $credentials.fadeOut();
             });
 
             $d.click(function() {
@@ -168,6 +204,15 @@
                 $about.fadeOut();
                 $projects.fadeOut();
                 $contact.fadeIn();
+                $credentials.fadeOut();
+            });
+            
+            $e.click(function() {
+                $home.fadeOut();
+                $about.fadeOut();
+                $projects.fadeOut();
+                $contact.fadeOut();
+                $credentials.fadeIn();
             });
 
         });
