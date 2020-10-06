@@ -51,12 +51,12 @@ body {
     font-weight: bold;
     display: inline-block;
     height: 70px;
-    margin: 20px 0;
+    margin: 15px 0;
     background-color: #205577;
     color: antiquewhite;
     line-height: 70px;
     text-align: center;
-    transition: 400ms;
+    transition: 300ms;
     border-radius: 1000px;
     float: right;
     margin-right: 10%;
@@ -67,24 +67,28 @@ a.active,
 .nav a:hover {
     background-color: antiquewhite;
     color: #205577;
-    width: 80%;
-    height: 80%;
+    width: 85%;
+    height: 85%;
 }
 
 .a {
-    width: 70%;
+    width: 75%;
 }
 
 .b {
-    width: 58%;  
+    width: 60%;  
 }
 
 .c {
-    width: 50%;
+    width: 52%;
 }
 
 .d {
     width: 60%;
+    
+}
+.e {
+    width: 75%;
     
 }
 
@@ -181,6 +185,46 @@ a.active,
     text-align: center;
     padding-right: 61px;
 }
+
+.credentials {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    margin-left: 17%;
+    overflow-y: auto;
+    margin-top: 2% ;
+    height: 500px;
+    width: 750px;
+    overflow-y: scroll;
+}
+
+.credentials p{
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+    display: inline-block;
+}
+
+.credentials p1{
+    font-size: 22px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+    display: inline-block;
+}
+
 
 .figcaps {
     margin-left: : 15px;
