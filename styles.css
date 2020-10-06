@@ -50,16 +50,17 @@ body {
     font-family: ;
     font-weight: bold;
     display: inline-block;
-    height: 90px;
+    height: 70px;
     margin: 20px 0;
     background-color: #205577;
     color: antiquewhite;
-    line-height: 90px;
+    line-height: 70px;
     text-align: center;
-    transition: 300ms;
+    transition: 400ms;
     border-radius: 1000px;
     float: right;
     margin-right: 10%;
+    opacity: .9;
 }
 
 a.active,
