@@ -197,7 +197,7 @@ a.active,
     float: right;
     margin-left: 17%;
     overflow-y: auto;
-  margin-top: 5% ;
+    margin-top: 5% ;
     height: 525px;
     width: 750px;
     overflow-y: scroll;
@@ -243,7 +243,7 @@ a.active,
     -webkit-transform-origin: bottom left;
     position: fixed;
     left: 25px;
-    padding-top: 35.25%;
+    padding-top: 35.5%;
     color: antiquewhite;
     font-family: ;
 }
