@@ -50,11 +50,11 @@ body {
     font-family: ;
     font-weight: bold;
     display: inline-block;
-    height: 70px;
+    height: 65px;
     margin: 15px 0;
     background-color: #205577;
     color: antiquewhite;
-    line-height: 70px;
+    line-height: 65px;
     text-align: center;
     transition: 300ms;
     border-radius: 1000px;
