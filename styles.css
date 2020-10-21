@@ -5,7 +5,7 @@
 
 html,
 body {
-    
+
     width: 100%;
     height: 100%;
     font-size: 14px;
@@ -15,7 +15,7 @@ body {
 }
 
 .background {
-    
+
     width: 100%;
     height: 100%;
     background-image: url(pics/source3_2.gif);
@@ -24,7 +24,7 @@ body {
     position: relative;
     overflow-y: auto;
     opacity: 1;
-    
+
 }
 
 .column1 {
@@ -40,7 +40,7 @@ body {
     position: absolute;
     top: 20%;
     right: 0;
-    
+
 
 }
 
@@ -50,14 +50,14 @@ body {
     font-family: ;
     font-weight: bold;
     display: inline-block;
-    height: 65px;
+    height: 70px;
     margin: 15px 0;
     background-color: #205577;
     color: antiquewhite;
-    line-height: 65px;
+    line-height: 70px;
     text-align: center;
-    transition: 300ms;
-    border-radius: 1000px;
+    transition: 400ms;
+    border-radius: 50%;
     float: right;
     margin-right: 10%;
     opacity: .9;
@@ -76,7 +76,7 @@ a.active,
 }
 
 .b {
-    width: 60%;  
+    width: 60%;
 }
 
 .c {
@@ -85,11 +85,12 @@ a.active,
 
 .d {
     width: 60%;
-    
+
 }
+
 .e {
     width: 75%;
-    
+
 }
 
 .content {
@@ -132,12 +133,11 @@ a.active,
     border: 1px solid black;
     border-radius: 10px;
     float: right;
-    margin-left: 17%;
     overflow-y: auto;
-    margin-top: 5% ;
     height: 525px;
     width: 750px;
     overflow-y: scroll;
+    border: 3px black solid;
 }
 
 .about p {
@@ -170,10 +170,12 @@ a.active,
     border: 1px solid black;
     border-radius: 100px;
     float: right;
-    margin-left: 15%;
     overflow-y: auto;
-    margin-top: 21.5%;
-    margin-left: 12%;
+    width: 685px;
+    border: 3px black solid;
+    align-content: center;
+
+
 }
 
 
@@ -195,15 +197,15 @@ a.active,
     border: 1px solid black;
     border-radius: 10px;
     float: right;
-    margin-left: 17%;
     overflow-y: auto;
-    margin-top: 5% ;
     height: 525px;
     width: 750px;
     overflow-y: scroll;
+    border: 3px black solid;
+
 }
 
-.credentials p{
+.credentials p {
     font-size: 28px;
     line-height: 35px;
     color: antiquewhite;
@@ -212,9 +214,10 @@ a.active,
     text-indent: 60px;
     font-family: serif;
     display: inline-block;
+
 }
 
-.credentials p1{
+.credentials p1 {
     font-size: 22px;
     line-height: 35px;
     color: antiquewhite;
@@ -243,7 +246,7 @@ a.active,
     -webkit-transform-origin: bottom left;
     position: fixed;
     left: 25px;
-    padding-top: 35.5%;
+    padding-top: 33%;
     color: antiquewhite;
     font-family: ;
 }
@@ -276,6 +279,7 @@ a.active,
     height: 600px;
     width: 850px;
     overflow-y: scroll;
+    border: 3px black solid;
 }
 
 .projects p {
@@ -299,13 +303,61 @@ a.active,
     object-position: fixed;
     align-content: center;
     padding-left: 225px;
-   
+
 }
 
 .center {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+
+#mydiv {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv2 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv3 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv4 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#about {
+
+    margin-top: 5.5%;
+    margin-left: 15%;
+
+}
+
+#projects {
+    margin-left: 15%;
+    margin-top: -5%;
+}
+
+#contact {
+    margin-top: 24%;
+    margin-left: 20%;
+}
+
+#credentials {
+    margin-top: -19%;
+    margin-left: 17.5%;
+
 }
 
 
