@@ -22,7 +22,9 @@
     </div>
     <div class="content">
 
-        <div class="about" style="z-index: 10;">
+    <div id="about">
+       <div id="mydiv" >
+        <div  class="about"  style="z-index: 10;">
             <p><><> Software Engineering student at SWFL's Florida Gulf Coast University. My fields of interest include: front-end web development, machine learning, and Object Oriented Programming. As far as career aspirations, little would bring me more enjoyment than working along like-minded, driven individuals to create and implement software technologies.
             </p>
             <center>
@@ -52,13 +54,15 @@
                 </figure>
             </div>
         </div>
+           </div>
+           </div>
 
-        <div class="projects" style="z-index: 10;">
-
+        <div id="projects">
+       <div id="mydiv2" >
+        <div  class="projects"  style="z-index: 10;">
 
                <p>Retro Pie:<br></p>
-               <p><><> This simple Raspberry Pie project has brought me a great deal of fun. Using a Raspberry Pie 3, and a set of online instructions, I was able to create a retro gaming emulation station to replay old favorites and experience classics for the first time. The system is HDMI and ethernet ready, with four USB ports for controllers. Below are a few attached photos of the process.<><>
-               </p>
+               <p><><> This simple Raspberry Pie project has brought me a great deal of fun. Using a Raspberry Pie 3, and a set of online instructions, I was able to create a retro gaming emulation station to replay old favorites and experience classics for the first time. The system is HDMI and ethernet ready, with four USB ports for controllers. Below are a few attached photos of the process.<><></p>
                <div class="row">
 
                    <!--Photos for Projects-->
@@ -97,18 +101,22 @@
                                 </p><br><br>
             
          <p>Land of Locke:</p>
-            <p><><>This is a  simple game demo I made using MIT's Scratch progam. Unfortunately, because of an embedding error on MIT's end, the game may not load properly. So, below is a video demonstration, and I've included a link to play the actual demo- <a href="https://scratch.mit.edu/projects/282426066/">here<><></a></p>
+            <p><><>This is a  simple game demo I made using MIT's Scratch progam. Unfortunately, because of an embedding error on MIT's end, the game may not load properly. So, below is a video demonstration, and I've included a link to play the actual demo- <a href="https://scratch.mit.edu/projects/282426066/">here</a><><></p>
                                 <p align="center"><video allowtransparency="true" width="525" height="395" src="pics/locke.mp4" frameborder="0" style="border: 2px black solid" allowfullscreen controls></video>
                                 </p><br><br>
             
             <p>Embeded System LED Number Display:</p>
             <p><><>Using assembly language and an Arduino microcontroller, I built an toggable LED number display through an instructor led lab.<><></p>
-                                <p align="center"><video allowtransparency="true" width="525" height="295" src="pics/PullUp.mp4" frameborder="0" style="border: 2px black solid" allowfullscreen controls></video>
+                                <p align="center"><video allowtransparency="true" width="525" height="295" src="pics/PullUp.MOV" frameborder="0" style="border: 2px black solid" allowfullscreen controls></video>
                                 </p><br><br>
 
-        </div>
+                </div>
+            </div>
+            </div>
 
-        <div class="contact" style="z-index: 10;">
+        <div id="contact">
+       <div id="mydiv3" >
+        <div  class="contact"  style="z-index: 10;">
             <div>
                 <div class="column">
                     <figure><a href="https://www.linkedin.com/in/morelli-j91/"><img src="pics/linkdin.png" alt="LinkedIn" style="width:130px;height:130px; margin-right: 50px;">
@@ -127,8 +135,13 @@
                 </div>
             </div>
         </div>
+            </div>
+        </div>
+    
         
-        <div class="credentials" style="z-index: 10;">
+        <div id="credentials">
+       <div id="mydiv4" >
+        <div  class="credentials"  style="z-index: 10;">
 
              <p><><><><><><><><><><><><><><><><><><></p>
                 <p1>
@@ -153,10 +166,11 @@
                     
                     </dl>
                 </p1>
-                <p><><><><><><><><><><><><><><><><><><></p>
-            
-            
+                <p><><><><><><><><><><><><><><><><><><></p> 
         </div>
+            </div>
+        </div>
+           
 
         <div class="home2" style="z-index: 0">
             <h1>Joseph Morelli</h1>
@@ -228,6 +242,179 @@
         });
 
     </script>
+        
+ <script>
+    dragElement(document.getElementById("mydiv"));
+    function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id)) {
+    // if present, the header is where you move the DIV from:
+    document.getElementById(elmnt.id).onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV:
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+     }</script>
+    
+    
+     <script>
+    dragElement(document.getElementById("mydiv2"));
+    function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id)) {
+    // if present, the header is where you move the DIV from:
+    document.getElementById(elmnt.id).onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV:
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+     }</script>
+    
+         <script>
+    dragElement(document.getElementById("mydiv3"));
+    function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id)) {
+    // if present, the header is where you move the DIV from:
+    document.getElementById(elmnt.id).onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV:
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+     }</script>
+    
+         <script>
+    dragElement(document.getElementById("mydiv4"));
+    function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id)) {
+    // if present, the header is where you move the DIV from:
+    document.getElementById(elmnt.id).onmousedown = dragMouseDown;
+  } else {
+    // otherwise, move the DIV from anywhere inside the DIV:
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    // stop moving when mouse button is released:
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+     }</script>
 </body>
 
 </html>
