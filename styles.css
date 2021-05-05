@@ -238,6 +238,275 @@ a.active,
     margin-top: 5px;
 }
 
+.figcaps2 {
+    margin-left: : 20px;
+    color: antiquewhite;
+    font-size: 22px;
+    font-family: serif;
+    text-decoration: none;
+    margin-top: 5px;
+      text-align: center;
+}
+
+.proj_pic {
+    width: 275px; 
+    height: 175px; 
+    border: 2px black solid;
+}
+
+.projects {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 15%;
+    overflow-y: auto;
+    margin-top: .5%;
+    height: 600px;
+    width: 900px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.projects p {
+    font-size: 25px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+    font-family: serif;
+}
+
+
+.project1 {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+    height: 550px;
+    width: 650px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.project2 {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+    height: 550px;
+    width: 650px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.project3 {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+    height: 550px;
+    width: 650px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.project4 {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+    height: 550px;
+    width: 650px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.project4 {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+    height: 550px;
+    width: 650px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.project5 {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+    height: 550px;
+    width: 650px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.project6 {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+    height: 550px;
+    width: 650px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.project7 {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+    height: 550px;
+    width: 650px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.project8 {
+    position: absolute;
+    padding: 0 60px;
+    background-color: #205577;
+    opacity: .95;
+    display: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    overflow-y: auto;
+    height: 550px;
+    width: 650px;
+    overflow-y: scroll;
+    border: 3px black solid;
+}
+
+.project1 p {
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+}
+
+.project2 p {
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+}
+
+.project3 p {
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+}
+
+.project4 p {
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+}
+
+.project5 p {
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+}
+
+.project6 p {
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+}
+
+.project7 p {
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+}
+
+.project8 p {
+    font-size: 28px;
+    line-height: 35px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-indent: 60px;
+    font-family: serif;
+}
+
 .figcaps:visited {
     color: antiquewhite;
 }
@@ -262,34 +531,6 @@ a.active,
     font-size: 30px;
     padding: 5px 0 0 50px;
     opacity: 0.5;
-}
-
-.projects {
-    position: absolute;
-    padding: 0 60px;
-    background-color: #205577;
-    opacity: .95;
-    display: none;
-    border: 1px solid black;
-    border-radius: 10px;
-    float: left;
-    margin-left: 15%;
-    overflow-y: auto;
-    margin-top: .5%;
-    height: 600px;
-    width: 850px;
-    overflow-y: scroll;
-    border: 3px black solid;
-}
-
-.projects p {
-    font-size: 28px;
-    line-height: 35px;
-    color: antiquewhite;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    text-indent: 60px;
-    font-family: serif;
 }
 
 .row {
@@ -337,6 +578,49 @@ a.active,
     z-index: 10;
 }
 
+#mydiv5 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv6 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv7 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv8 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv9 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv10 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+#mydiv11 {
+    position: absolute;
+    cursor: move;
+    z-index: 10;
+}
+
+
 #about {
 
     margin-top: 5.5%;
@@ -359,6 +643,23 @@ a.active,
     margin-left: 17.5%;
 
 }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #205577;
+  padding: 0px;
+  grid-gap: 50px 25px;
+}
+.grid-item {  
+  border: 1px solid rgba(0, 0, 0, 0);
+  font-size: 30px;
+  text-align: center;
+}
+
+
 
 
 /* width */
