@@ -513,7 +513,7 @@ a.active,
 
 .home2 {
     -webkit-transform-origin: bottom left;
-    position: fixed;
+    position: absolute;
     left: 25px;
     padding-top: 33%;
     color: antiquewhite;
